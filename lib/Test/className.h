@@ -1,0 +1,11 @@
+//
+// Created by paria on 02/02/18.
+//
+
+#ifndef SETTINGUPGOOGLETEST_CLASSNAME_H
+#define SETTINGUPGOOGLETEST_CLASSNAME_H
+
+class className{
+
+};
+#endif //SETTINGUPGOOGLETEST_CLASSNAME_H

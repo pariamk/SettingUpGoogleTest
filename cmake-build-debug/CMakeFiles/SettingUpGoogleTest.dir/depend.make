@@ -40,8 +40,8 @@ CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/googletest-master
 CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/Test/Include/className.h
 CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/Test/Test.cpp
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/Test/className.h
 
 CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
 CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o: ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h

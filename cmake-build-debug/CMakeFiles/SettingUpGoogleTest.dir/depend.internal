@@ -41,8 +41,8 @@ CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /home/paria/codes/SettingUpGoogleTest/lib/Test/Include/className.h
  /home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp
- /home/paria/codes/SettingUpGoogleTest/lib/Test/className.h
 CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h

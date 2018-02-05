@@ -248,33 +248,6 @@ lib/Test/Test.cpp.s:
 	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.s
 .PHONY : lib/Test/Test.cpp.s
 
-lib/Test/testTDMA.o: lib/Test/testTDMA.cpp.o
-
-.PHONY : lib/Test/testTDMA.o
-
-# target to build an object file
-lib/Test/testTDMA.cpp.o:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/testTDMA.cpp.o
-.PHONY : lib/Test/testTDMA.cpp.o
-
-lib/Test/testTDMA.i: lib/Test/testTDMA.cpp.i
-
-.PHONY : lib/Test/testTDMA.i
-
-# target to preprocess a source file
-lib/Test/testTDMA.cpp.i:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/testTDMA.cpp.i
-.PHONY : lib/Test/testTDMA.cpp.i
-
-lib/Test/testTDMA.s: lib/Test/testTDMA.cpp.s
-
-.PHONY : lib/Test/testTDMA.s
-
-# target to generate assembly for a file
-lib/Test/testTDMA.cpp.s:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/testTDMA.cpp.s
-.PHONY : lib/Test/testTDMA.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -322,9 +295,6 @@ help:
 	@echo "... lib/Test/Test.o"
 	@echo "... lib/Test/Test.i"
 	@echo "... lib/Test/Test.s"
-	@echo "... lib/Test/testTDMA.o"
-	@echo "... lib/Test/testTDMA.i"
-	@echo "... lib/Test/testTDMA.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

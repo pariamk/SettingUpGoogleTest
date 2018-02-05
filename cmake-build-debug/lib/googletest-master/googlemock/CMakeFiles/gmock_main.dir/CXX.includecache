@@ -468,21 +468,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-className.h
-/home/paria/codes/SettingUpGoogleTest/lib/Test/className.h
-
-/home/paria/codes/SettingUpGoogleTest/lib/Test/className.h
-
-/home/paria/codes/SettingUpGoogleTest/main.cpp
+/home/paria/codes/SettingUpGoogleTest/lib/googletest-master/googlemock/src/gmock_main.cc
 iostream
 -
-gtest/gtest.h
--
 gmock/gmock.h
+/home/paria/codes/SettingUpGoogleTest/lib/googletest-master/googlemock/src/gmock/gmock.h
+gtest/gtest.h
+/home/paria/codes/SettingUpGoogleTest/lib/googletest-master/googlemock/src/gtest/gtest.h
+tchar.h
 -
 

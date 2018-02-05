@@ -8,6 +8,6 @@ include_directories(lib/googletest-master/googletest/include)
 include_directories(lib/googletest-master/googlemock/include )
 
 
-set(SOURCE_FILES main.cpp lib/Test/Test.cpp lib/Test/className.h lib/Test/TDMASolver.h lib/Test/testTDMA.cpp)
+set(SOURCE_FILES main.cpp lib/Test/Test.cpp lib/Test/className.h )
 add_executable(SettingUpGoogleTest ${SOURCE_FILES})
 target_link_libraries(SettingUpGoogleTest gtest gtest_main)

@@ -336,16 +336,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/TDMASolver.h">
-			<Option target="SettingUpGoogleTest"/>
-		</Unit>
 		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp">
 			<Option target="SettingUpGoogleTest"/>
 		</Unit>
 		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/className.h">
-			<Option target="SettingUpGoogleTest"/>
-		</Unit>
-		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/testTDMA.cpp">
 			<Option target="SettingUpGoogleTest"/>
 		</Unit>
 		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/googletest-master/googlemock/src/gmock-all.cc">

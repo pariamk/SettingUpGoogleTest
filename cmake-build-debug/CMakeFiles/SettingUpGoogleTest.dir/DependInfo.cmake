@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp" "/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o"
-  "/home/paria/codes/SettingUpGoogleTest/lib/Test/testTDMA.cpp" "/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles/SettingUpGoogleTest.dir/lib/Test/testTDMA.cpp.o"
   "/home/paria/codes/SettingUpGoogleTest/main.cpp" "/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

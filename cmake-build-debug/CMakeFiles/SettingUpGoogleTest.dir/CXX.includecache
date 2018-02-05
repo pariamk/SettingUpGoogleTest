@@ -490,6 +490,16 @@ fstream
 ../Include/TDMASolver.h
 /home/paria/codes/SettingUpGoogleTest/lib/Test/Include/TDMASolver.h
 
+/home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolverTest.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+../Include/TDMASolver.h
+/home/paria/codes/SettingUpGoogleTest/lib/Test/Include/TDMASolver.h
+vector
+-
+
 /home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp
 gtest/gtest.h
 -

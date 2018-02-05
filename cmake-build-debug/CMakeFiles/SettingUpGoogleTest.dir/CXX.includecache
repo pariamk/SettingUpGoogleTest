@@ -468,14 +468,34 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/home/paria/codes/SettingUpGoogleTest/lib/Test/Include/TDMASolver.h
+iostream
+-
+vector
+-
+array
+-
+
 /home/paria/codes/SettingUpGoogleTest/lib/Test/Include/className.h
 
-/home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp
+/home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolver.cpp
+vector
+-
+math.h
+-
+array
+-
+fstream
+-
+../Include/TDMASolver.h
+/home/paria/codes/SettingUpGoogleTest/lib/Test/Include/TDMASolver.h
+
+/home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
-Include/className.h
+../Include/className.h
 /home/paria/codes/SettingUpGoogleTest/lib/Test/Include/className.h
 
 /home/paria/codes/SettingUpGoogleTest/main.cpp

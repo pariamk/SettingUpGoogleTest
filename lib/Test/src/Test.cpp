@@ -4,7 +4,7 @@
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "Include/className.h"
+#include "../Include/className.h"
 
 using testing::Eq;
 
@@ -18,10 +18,10 @@ namespace {
 
     };
 }
-TEST_F(ClassDeclaration,NameOfTheTest1){
+TEST_F(ClassDeclaration,DummyTest1){
     ASSERT_EQ("","");
 }
 
-TEST_F(ClassDeclaration,NameOfTheTest2){
+TEST_F(ClassDeclaration,DummyTest2){
     ASSERT_EQ("","");
 }

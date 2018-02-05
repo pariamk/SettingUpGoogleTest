@@ -221,32 +221,59 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-lib/Test/Test.o: lib/Test/Test.cpp.o
+lib/Test/src/TDMASolver.o: lib/Test/src/TDMASolver.cpp.o
 
-.PHONY : lib/Test/Test.o
+.PHONY : lib/Test/src/TDMASolver.o
 
 # target to build an object file
-lib/Test/Test.cpp.o:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o
-.PHONY : lib/Test/Test.cpp.o
+lib/Test/src/TDMASolver.cpp.o:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o
+.PHONY : lib/Test/src/TDMASolver.cpp.o
 
-lib/Test/Test.i: lib/Test/Test.cpp.i
+lib/Test/src/TDMASolver.i: lib/Test/src/TDMASolver.cpp.i
 
-.PHONY : lib/Test/Test.i
+.PHONY : lib/Test/src/TDMASolver.i
 
 # target to preprocess a source file
-lib/Test/Test.cpp.i:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.i
-.PHONY : lib/Test/Test.cpp.i
+lib/Test/src/TDMASolver.cpp.i:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.i
+.PHONY : lib/Test/src/TDMASolver.cpp.i
 
-lib/Test/Test.s: lib/Test/Test.cpp.s
+lib/Test/src/TDMASolver.s: lib/Test/src/TDMASolver.cpp.s
 
-.PHONY : lib/Test/Test.s
+.PHONY : lib/Test/src/TDMASolver.s
 
 # target to generate assembly for a file
-lib/Test/Test.cpp.s:
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.s
-.PHONY : lib/Test/Test.cpp.s
+lib/Test/src/TDMASolver.cpp.s:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.s
+.PHONY : lib/Test/src/TDMASolver.cpp.s
+
+lib/Test/src/Test.o: lib/Test/src/Test.cpp.o
+
+.PHONY : lib/Test/src/Test.o
+
+# target to build an object file
+lib/Test/src/Test.cpp.o:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o
+.PHONY : lib/Test/src/Test.cpp.o
+
+lib/Test/src/Test.i: lib/Test/src/Test.cpp.i
+
+.PHONY : lib/Test/src/Test.i
+
+# target to preprocess a source file
+lib/Test/src/Test.cpp.i:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.i
+.PHONY : lib/Test/src/Test.cpp.i
+
+lib/Test/src/Test.s: lib/Test/src/Test.cpp.s
+
+.PHONY : lib/Test/src/Test.s
+
+# target to generate assembly for a file
+lib/Test/src/Test.cpp.s:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.s
+.PHONY : lib/Test/src/Test.cpp.s
 
 main.o: main.cpp.o
 
@@ -292,9 +319,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... lib/Test/Test.o"
-	@echo "... lib/Test/Test.i"
-	@echo "... lib/Test/Test.s"
+	@echo "... lib/Test/src/TDMASolver.o"
+	@echo "... lib/Test/src/TDMASolver.i"
+	@echo "... lib/Test/src/TDMASolver.s"
+	@echo "... lib/Test/src/Test.o"
+	@echo "... lib/Test/src/Test.i"
+	@echo "... lib/Test/src/Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

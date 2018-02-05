@@ -81,46 +81,72 @@ CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o.provides: CMakeFiles/SettingUpGoog
 CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o.provides.build: CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o
 
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: CMakeFiles/SettingUpGoogleTest.dir/flags.make
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o: ../lib/Test/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o -c /home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o: CMakeFiles/SettingUpGoogleTest.dir/flags.make
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o: ../lib/Test/src/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o -c /home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp > CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.i
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp > CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.i
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paria/codes/SettingUpGoogleTest/lib/Test/Test.cpp -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.s
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.s
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.requires:
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.requires:
 
-.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.requires
+.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.requires
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.provides: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.provides.build
-.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.provides
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.provides: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.provides.build
+.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.provides
 
-CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.provides.build: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.provides.build: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o
+
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o: CMakeFiles/SettingUpGoogleTest.dir/flags.make
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o: ../lib/Test/src/TDMASolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o -c /home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolver.cpp
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolver.cpp > CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.i
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolver.cpp -o CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.s
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.requires:
+
+.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.requires
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.provides: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.provides.build
+.PHONY : CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.provides
+
+CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.provides.build: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o
 
 
 # Object files for target SettingUpGoogleTest
 SettingUpGoogleTest_OBJECTS = \
 "CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o" \
-"CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o"
+"CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o" \
+"CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o"
 
 # External object files for target SettingUpGoogleTest
 SettingUpGoogleTest_EXTERNAL_OBJECTS =
 
 SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o
-SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o
+SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o
+SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o
 SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/build.make
 SettingUpGoogleTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 SettingUpGoogleTest: lib/googletest-master/googlemock/gtest/libgtest_maind.a
 SettingUpGoogleTest: lib/googletest-master/googlemock/gtest/libgtestd.a
 SettingUpGoogleTest: CMakeFiles/SettingUpGoogleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SettingUpGoogleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paria/codes/SettingUpGoogleTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SettingUpGoogleTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SettingUpGoogleTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,7 +155,8 @@ CMakeFiles/SettingUpGoogleTest.dir/build: SettingUpGoogleTest
 .PHONY : CMakeFiles/SettingUpGoogleTest.dir/build
 
 CMakeFiles/SettingUpGoogleTest.dir/requires: CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o.requires
-CMakeFiles/SettingUpGoogleTest.dir/requires: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/Test.cpp.o.requires
+CMakeFiles/SettingUpGoogleTest.dir/requires: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o.requires
+CMakeFiles/SettingUpGoogleTest.dir/requires: CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o.requires
 
 .PHONY : CMakeFiles/SettingUpGoogleTest.dir/requires
 

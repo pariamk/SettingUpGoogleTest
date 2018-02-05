@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SettingUpGoogleTest.dir/main.cpp.o"
   "CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/Test.cpp.o"
   "CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.o"
+  "CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolverTest.cpp.o"
   "SettingUpGoogleTest.pdb"
   "SettingUpGoogleTest"
 )

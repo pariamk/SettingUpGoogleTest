@@ -345,6 +345,9 @@
 		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolver.cpp">
 			<Option target="SettingUpGoogleTest"/>
 		</Unit>
+		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/src/TDMASolverTest.cpp">
+			<Option target="SettingUpGoogleTest"/>
+		</Unit>
 		<Unit filename="/home/paria/codes/SettingUpGoogleTest/lib/Test/src/Test.cpp">
 			<Option target="SettingUpGoogleTest"/>
 		</Unit>

@@ -248,6 +248,33 @@ lib/Test/src/TDMASolver.cpp.s:
 	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolver.cpp.s
 .PHONY : lib/Test/src/TDMASolver.cpp.s
 
+lib/Test/src/TDMASolverTest.o: lib/Test/src/TDMASolverTest.cpp.o
+
+.PHONY : lib/Test/src/TDMASolverTest.o
+
+# target to build an object file
+lib/Test/src/TDMASolverTest.cpp.o:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolverTest.cpp.o
+.PHONY : lib/Test/src/TDMASolverTest.cpp.o
+
+lib/Test/src/TDMASolverTest.i: lib/Test/src/TDMASolverTest.cpp.i
+
+.PHONY : lib/Test/src/TDMASolverTest.i
+
+# target to preprocess a source file
+lib/Test/src/TDMASolverTest.cpp.i:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolverTest.cpp.i
+.PHONY : lib/Test/src/TDMASolverTest.cpp.i
+
+lib/Test/src/TDMASolverTest.s: lib/Test/src/TDMASolverTest.cpp.s
+
+.PHONY : lib/Test/src/TDMASolverTest.s
+
+# target to generate assembly for a file
+lib/Test/src/TDMASolverTest.cpp.s:
+	$(MAKE) -f CMakeFiles/SettingUpGoogleTest.dir/build.make CMakeFiles/SettingUpGoogleTest.dir/lib/Test/src/TDMASolverTest.cpp.s
+.PHONY : lib/Test/src/TDMASolverTest.cpp.s
+
 lib/Test/src/Test.o: lib/Test/src/Test.cpp.o
 
 .PHONY : lib/Test/src/Test.o
@@ -322,6 +349,9 @@ help:
 	@echo "... lib/Test/src/TDMASolver.o"
 	@echo "... lib/Test/src/TDMASolver.i"
 	@echo "... lib/Test/src/TDMASolver.s"
+	@echo "... lib/Test/src/TDMASolverTest.o"
+	@echo "... lib/Test/src/TDMASolverTest.i"
+	@echo "... lib/Test/src/TDMASolverTest.s"
 	@echo "... lib/Test/src/Test.o"
 	@echo "... lib/Test/src/Test.i"
 	@echo "... lib/Test/src/Test.s"
